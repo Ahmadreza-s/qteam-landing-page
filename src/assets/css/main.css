@@ -1,0 +1,870 @@
+
+
+/* ==========================================================================
+   Global styles
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
+  font-family: "IRANSans","B Yekan",'Montserrat', sans-serif;
+}
+
+#sec2 {
+  padding-top: 140px;
+  padding-bottom: 160px;
+}
+
+#customersHeader {
+  font-weight: 400;
+}
+p, .lead {
+	font-family: "IRANSans","B Yekan",'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 55px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 40px;
+  etter-spacing: -0.5px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #231f20;
+  font-weight: 700;
+}
+
+.lead {
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+p {
+  font-size: 17px;
+  line-height: 22px;
+  color: #929496;
+  font-weight: 400;
+}
+
+/*------------------Utilities---------------------*/
+a {
+  color: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #231f20;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -10%;
+}
+
+
+
+/*------------------Buttons---------------------*/
+.btn:focus {
+  outline: 0px auto -webkit-focus-ring-color;
+  outline: none;
+}
+
+.btn {
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: none;
+}
+
+
+
+.btn-sm {
+  font-size: 11px;
+  line-height: 1.33;
+  padding: 10px 18px;
+  font-weight: 400;
+}
+
+
+.btn-wide {
+  width: 100%;
+  font-size: 13px;
+  line-height: 1.33;
+  padding: 18px 28px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.btn-wide:hover, .btn-wide:focus {
+  background-color: #8be2e5;
+  color: #ffffff;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+
+
+.btn-secondary {
+  background-color: #AFAFAF;
+  color: white;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active {
+  background-color: #ededed;
+  color: #231f20;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+
+
+
+/* ==========================================================================
+   Nav Styles
+   ========================================================================== */
+
+.navbar {
+    border: 0px solid rgba(0, 0, 0, 0);
+    background: #f8f8f8;
+    margin: auto;
+    min-height: 70px;
+    padding-top: 8px;
+    transition: top 0.4s ease 0s;
+}
+
+.navbar.open {
+    top: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-nav a {
+    color: #6D6E70;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+  background: #f8f8f8;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: black;
+    opacity: 1;
+}
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  cursor:pointer;
+}
+.nav > li > a.active  {
+  color: black;
+}
+
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #4ec3cd;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.logo img {
+	margin-top: 6px;
+}
+
+/* ==========================================================================
+   Main styles
+   ========================================================================== */
+header {
+  background: url(../img/workspace.png) no-repeat bottom, linear-gradient(30deg, #8361DE, #08AEEA, #19D9BB);
+  width:100%;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+
+.header-info {
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin-left: 0;
+  margin-top: 3%;
+}
+
+.headerTitle {
+  font-weight: normal;
+  font-size: 48px;
+  letter-spacing: 0;
+
+}
+
+.headerDesc {
+  margin-top: 40px;
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 0;
+  color: white;
+}
+
+.headerButton {
+  font-size: 18px;
+  color: white;
+  width: 180px;
+  height: 55px;
+  padding: 15px 30px;
+}
+
+.headerButton:hover {
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.pad-xl {
+	padding: 200px 0px;
+}
+
+.pad-lg {
+	padding: 160px 0px;
+}
+
+.pad-sm {
+	padding: 80px 0px;
+}
+
+.pad-xs {
+	padding: 30px 0px;
+}
+
+
+
+
+hr.line {
+	width: 100%;
+	border: 2px solid;
+}
+
+
+footer {
+  background: #f8f8f8;
+  padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Form styles
+   ========================================================================== */
+.form-control {
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #929496;
+    display: block;
+    font-size: 15px;
+    height: 60px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.form-control::-moz-placeholder {
+    color: #d9d9d9;
+    font-size: 15px;
+    opacity: 1;
+}
+
+.form-control::-webkit-placeholder, .form-control::-o-placeholder {
+    color: #d9d9d9;
+    font-size: 15px;
+    opacity: 1;
+}
+
+.form-control::-o-placeholder {
+    color: #d9d9d9;
+    font-size: 15px;
+    opacity: 1;
+}
+
+#daneshbonyanImg {
+  margin-top: -15%;
+}
+
+#customersHeader{
+  font-size: 36px;
+ }
+#headerProductDetail{
+  font-size:28px;
+}
+
+
+
+/* ==========================================================================
+   Mobile styles
+   ========================================================================== */
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+  .headerTitle {
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+
+  .headerDesc {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: white;
+  }
+
+  .headerButton {
+    font-size: 12px;
+    color: white;
+    width: 130px;
+    height: 40px;
+    padding: 12px 25px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #929496;
+    font-weight: 400;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .header-info {
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+  }
+  header {
+    background: url(../img/workspace.png) no-repeat center center, linear-gradient(30deg, #8361DE , #08AEEA,#19D9BB);
+    width:100%;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
+
+.btn-wide {
+  width: 100%;
+  font-size: 12.5px;
+  line-height: 1.33;
+  padding: 16px 13px;
+  letter-spacing: 0px;
+}
+
+  #daneshbonyanImg {
+    display: none;
+  margin-top: 5px;
+  padding-bottom: 10px;
+}
+
+  #sec2 {
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+#sec2banner{
+  height: 100px;
+}
+
+  .sec2Header {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  .sec2Desc {
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .showProductTiles {
+    display: none;
+  }
+
+  #productBanner {
+    height: 80px;
+  }
+
+  .productHeader {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 21px;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+
+  .productDesc {
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  #headerProductDetail{
+    font-size:22px;
+  }
+
+  .productDetailHeader {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+
+#be-the-first {
+      background-attachment: scroll;
+  }
+
+  #customersHeader{
+    font-size: 25px;
+  }
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .headerTitle {
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 0;
+  }
+
+  .headerDesc {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0;
+    color: white;
+  }
+
+  .headerButton {
+    font-size: 12px;
+    color: white;
+    width: 130px;
+    height: 40px;
+    padding: 12px 25px;
+  }
+
+  #sec2banner{
+    height: 80px;
+  }
+
+  .sec2Header {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+
+  }
+
+  .sec2Desc {
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 55px;
+  }
+
+  #daneshbonyanImg {
+    display: none;
+  }
+
+  #sec2 {
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+
+  .showProductTiles {
+    display: none;
+  }
+
+  #productBanner {
+    height: 80px;
+  }
+
+  .productHeader {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 21px;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+
+  .productDesc {
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  #headerProductDetail{
+    font-size:23px;
+  }
+
+  #be-the-first {
+      background-attachment: scroll;
+  }
+  #customersHeader{
+    font-size: 28px;
+  }
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .headerTitle {
+    font-weight: normal;
+    font-size: 36px;
+    letter-spacing: 0;
+  }
+
+  .headerDesc {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0;
+    color: white;
+  }
+
+  .headerButton {
+    font-size: 14px;
+    color: white;
+    width: 140px;
+    height: 45px;
+    padding: 12px 25px;
+  }
+
+  #daneshbonyanImg {
+    display: none;
+  }
+
+  #sec2 {
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+  #sec2banner{
+    height: 80px;
+  }
+
+  .sec2Header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  .sec2Desc {
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 24px;
+    line-height: 50px;
+  }
+
+  .showProductTiles {
+    display: none;
+  }
+
+  #productBanner {
+    height: 80px;
+  }
+
+  .productHeader {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 21px;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+
+  .productDesc {
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  #headerProductDetail{
+    font-size:25px;
+  }
+
+  #be-the-first {
+      background-attachment: scroll;
+  }
+  #customersHeader{
+    font-size: 30px;
+  }
+
+}
+
+
+
+/* Desktops and laptops ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .headerTitle {
+    font-weight: normal;
+    font-size: 42px;
+    letter-spacing: 0;
+  }
+
+  .headerDesc {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0;
+    color: white;
+  }
+
+  .headerButton {
+    font-size: 16px;
+    color: white;
+    width: 160px;
+    height: 50px;
+    padding: 15px 30px;
+  }
+
+  #sec2banner{
+    height: 130px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .sec2Header {
+    text-align: justify;
+    margin-right: 15px;
+    font-size: 25px;
+    letter-spacing: 0;
+    font-weight: 600;
+    line-height: 50px;
+
+  }
+
+  .sec2Desc {
+    text-align: justify;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+  #productBanner {
+    height: 130px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .productHeader {
+    text-align: justify;
+    font-size: 32px;
+    padding-top: 40px;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+
+  .productDesc {
+    line-height: 40px;
+    text-align: justify;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .productTileHeader {
+    direction: rtl;
+    padding-top: 40px;
+    font-size: 32px;
+
+  }
+
+  .productTileDesc {
+    direction: rtl;
+    padding-top: 40px;
+    text-align: right;
+    font-size: 16px;
+  }
+
+  #headerProductDetail{
+    font-size:28px;
+  }
+
+  #daneshbonyanImg {
+    margin-top: -15%;
+    padding-bottom: 10px;
+  }
+
+  #sec2 {
+    padding-top: 80px;
+    padding-bottom: 160px;
+  }
+  #customersHeader{
+    font-size: 32px;
+  }
+}
+
+
+
+/* Large screens ----------- */
+@media (min-width: 1200px) and (max-width: 3000px) {
+
+  .headerTitle {
+    font-weight: normal;
+    font-size: 48px;
+    letter-spacing: 0;
+  }
+
+  .headerDesc {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 0;
+    color: white;
+  }
+
+  .headerButton {
+    font-size: 18px;
+    color: white;
+    width: 180px;
+    height: 55px;
+    padding: 15px 30px;
+  }
+
+  #sec2banner{
+    height: 130px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .sec2Header {
+    text-align: justify;
+    margin-right: 20px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 50px;
+
+  }
+
+  .sec2Desc {
+    text-align: justify;
+    margin-right: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 45px;
+  }
+
+  #productBanner {
+    height: 130px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .productHeader {
+    text-align: justify;
+    font-size: 36px;
+    padding-top: 45px;
+    letter-spacing: 1px;
+    font-weight: normal;
+  }
+
+  .productDesc {
+    line-height: 50px;
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .productTileHeader {
+    direction: rtl;
+    padding-top: 40px;
+    font-size: 36px;
+
+  }
+
+  .productTileDesc {
+    direction: rtl;
+    padding-top: 40px;
+    font-size: 18px;
+  }
+
+  #headerProductDetail{
+    font-size:30px;
+  }
+
+  #daneshbonyanImg {
+    margin-top: -15%;
+  }
+  #customersHeader{
+    font-size: 36px;
+  }
+}
+
+
+
+
+

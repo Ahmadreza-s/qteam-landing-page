@@ -1,0 +1,78 @@
+.workPanel {
+  text-align: justify;
+  direction: rtl;
+  display: block;
+  position: relative;
+  background: #FFFFFF;
+  padding: 45px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.workPanel:before, .workPanel:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  width: 0;
+  height: 0;
+}
+
+.workPanel.sherkat:after {
+  right: 7%;
+  border: 10px solid transparent;
+  border-bottom-color: #fff;
+}
+
+.workPanel.karamuzi:after {
+  left: 7%;
+  border: 10px solid transparent;
+  border-bottom-color: #fff;
+}
+
+.workPanel.estekhdam:after {
+  left: 50%;
+  border: 10px solid transparent;
+  border-bottom-color: #fff;
+}
+
+.btn-work {
+  width: 100%;
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.33;
+  padding: 16px 13px;
+  letter-spacing: 0px;
+  color: white;
+}
+
+.btn-work.active {
+  background: #6D6E70;
+  color: white;
+  border: solid 2px #6D6E70;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.workDesc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+@media (max-width: 767px) {
+  .workDesc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .btn-work {
+    font-size: 18px;
+  }
+}

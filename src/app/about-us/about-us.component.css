@@ -1,0 +1,83 @@
+/*.member {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}*/
+
+/*xs*/
+@media (max-width: 767px) {
+  .maKiHastimDesc {
+    margin-right: 15px;
+    font-size: 15px;
+    line-height: 30px
+  }
+
+  .name {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6D6E70;
+  }
+
+  .skill {
+    direction: rtl;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6D6E70;
+  }
+
+  /*.member {
+    padding-right: 0;
+    padding-left: 0;
+  }*/
+}
+
+/*sm*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .maKiHastimDesc {
+    margin-right: 30px;
+    font-size: 16px;
+    line-height: 25px
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #6D6E70;
+  }
+
+  .skill {
+    direction: rtl;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6D6E70;
+  }
+
+  /*.member {
+    padding-right: 5px;
+    padding-left: 5px;
+  }*/
+}
+
+/*md*/
+@media (min-width: 992px) {
+  .maKiHastimDesc {
+    margin-right: 60px;
+    font-size: 18px;
+    line-height: 35px
+  }
+
+  .name {
+
+    font-size: 20px;
+    font-weight: 600;
+    color: #6D6E70;
+  }
+
+  .skill {
+    direction: rtl;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6D6E70;
+  }
+
+}
+

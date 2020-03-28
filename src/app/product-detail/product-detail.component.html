@@ -1,0 +1,71 @@
+<div class="container-fluid">
+
+  <div class="col-md-4 col-md-push-7 ">
+    <div class="row productDetailHeader">
+      <div style="background: linear-gradient(90deg,#21D4FD,#B721FF);border-radius: 5px;height: 90px;">
+        <h2 style="direction:rtl;font-size: 30px;color: white;text-align: center;padding: 25px;">محصولات</h2>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 2%">
+      <div class="col-xs-2 col-md-2" (click)="selectGofare()"
+           [ngStyle]="{'cursor':'pointer','background':selectedProduct==0?'linear-gradient(180deg,#8BC6EC,#9599E2)':'white','width':'49%','margin-right':'1%','height':'170px','border-radius':'5px','padding-left':'0','border':'1px solid lightgrey'}">
+        <p
+          [ngStyle]="{'margin':'0','font-size':'36px','direction':'rtl','padding-top':'40px','color':selectedProduct==0?'white':'#6D6E70'}">
+          گفتاره</p>
+        <p
+          [ngStyle]="{'margin':'0','font-size':'18px','direction':'rtl','padding-top':'40px','color':selectedProduct==0?'white':'#6D6E70'}">
+          مشاوره روانشناسی آنلاین</p>
+      </div>
+      <div class="col-xs-2 col-md-2" (click)="selectEcab()"
+           [ngStyle]="{'cursor':'pointer','background':selectedProduct==1?'linear-gradient(180deg,#FAD961,#FBAB7E)':'white','width':'49%','margin-left':'1%','height':'170px','border-radius':'5px','padding-left':'0','border':'1px solid lightgrey'}">
+        <p
+          [ngStyle]="{'margin':'0','font-size':'36px','direction':'rtl','padding-top':'40px','color':selectedProduct==1?'white':'#6D6E70'}">
+          ایکب</p>
+        <p
+          [ngStyle]="{'margin':'0','font-size':'18px','direction':'rtl','padding-top':'40px','color':selectedProduct==1?'white':'#6D6E70'}">
+          سفارش تاکسی آنلاین</p>
+      </div>
+      <div class="col-xs-2 col-md-2" (click)="selectSamandar()"
+           [ngStyle]="{'cursor':'pointer','background':selectedProduct==2?'linear-gradient(180deg,#C850C0,#803A7B)':'white','width':'49%','margin-right':'1%','height':'170px','border-radius':'5px','padding-left':'0','margin-top':'2%','border':'1px solid lightgrey'}">
+        <p
+          [ngStyle]="{'margin':'0','font-size':'36px','direction':'rtl','padding-top':'40px','color':selectedProduct==2?'white':'#6D6E70'}">
+          سمندر</p>
+        <p
+          [ngStyle]="{'margin':'0','font-size':'18px','direction':'rtl','padding-top':'40px','color':selectedProduct==2?'white':'#6D6E70'}">
+          راهنمای گردشگری</p>
+      </div>
+      <div class="col-xs-2 col-md-2 " (click)="selectPatil()"
+           [ngStyle]="{'cursor':'pointer','background':selectedProduct==3?'linear-gradient(180deg,#FF5F5C,#E13734)':'white','width':'49%','margin-left':'1%','height':'170px','border-radius':'5px','padding-left':'0','margin-top':'2%','border':'1px solid lightgrey'}">
+        <p
+          [ngStyle]="{'margin':'0','font-size':'36px','direction':'rtl','padding-top':'40px','color':selectedProduct==3?'white':'#6D6E70'}">
+          پاتیل</p>
+        <p
+          [ngStyle]="{'margin':'0','font-size':'18px','direction':'rtl','padding-top':'40px','color':selectedProduct==3?'white':'#6D6E70'}">
+          سفارش آنلاین غذا</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-5 col-md-pull-3">
+    <div class="row">
+      <h2 id="headerProductDetail"
+          style="line-height: 60px;font-weight: 400;direction:rtl;text-align: right;color: #6D6E70;font-size: 34px">
+        {{header}}</h2>
+      <p style="margin-top: 15px;font-size: 16px;color: #6D6E70;font-weight: 400" class="pull-right">
+        {{headerDetail}}</p>
+    </div>
+    <div class="row">
+      <p
+        style="font-weight: normal;line-height: 35px;direction:rtl;text-align: justify;font-size: 18px;color: #6D6E70;margin-top: 20px">
+        {{text}}
+      </p>
+    </div>
+    <div class="row">
+      <p
+        style="cursor: pointer;font-weight: normal;line-height: 35px;direction:rtl;text-align: left;font-size: 18px;color: #0EC4D3;margin-top: 20px">
+        <a href="{{url}}">وبسایت محصول</a>
+      </p>
+    </div>
+  </div>
+
+
+</div>

@@ -1,0 +1,193 @@
+<header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="pull-right" style="margin-top: 20px;margin-right: 20px;max-width: 50px;max-height: 45px;">
+        <img src="assets/img/logo.png" class="img-responsive" alt="Logo">
+      </div>
+    </div>
+
+    <div class="row header-info">
+      <div class="text-center">
+        <h1 class="headerTitle" style="color: #FDFDFD">شرکت دانش بنیان کیو</h1>
+        <br/>
+        <p class="headerDesc" style="color: #FDFDFD">پنج سال تجربه در توسعه اپلیکشن های موبایل و وب سرویس ها</p>
+        <br/>
+        <div style="margin-top: 15px">
+          <a class="btn headerButton goToSec2" style="background-color: #AFAFAF;">اطلاعات بیشتر</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</header>
+<div id="xxx" style="margin: 0;padding: 0;height: 78px">
+  <div class="navbar navbar-inverse" data-spy="affix">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle navbarscroll" data-toggle="collapse" data-target=".navbar-collapse">
+          <span style="background-color: #6D6E70" class="icon-bar"></span>
+          <span style="background-color: #6D6E70" class="icon-bar"></span>
+          <span style="background-color: #6D6E70" class="icon-bar"></span>
+        </button>
+
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left" style="direction: ltr;margin-left: 10px">
+          <li><a href="/about">درباره ما</a></li>
+          <li><a href="/contact">تماس با ما</a></li>
+          <li><a>وبلاگ</a></li>
+          <li><a class="goToWork">همکاری</a></li>
+          <li><a class="goToServices">خدمات</a></li>
+          <li><a class="goToProducts">محصولات</a></li>
+          <li><a class="goToHome">صفحه اصلی</a></li>
+
+        </ul>
+        <div class="nav navbar-nav navbar-right">
+          <table style="border: 0;background: transparent;margin-right:60px;" class="table-responsive">
+            <tr>
+              <td style="text-align: right"><p
+                style="font-size: 28px;font-weight: bold;direction: rtl;color: #183660;margin: 0;padding: 10px">کیو</p>
+              </td>
+              <td style="text-align:left;vertical-align: middle;">
+                <img class="pull-left" style="display: block;margin: auto;width: 45px;height: 50px"
+                     src="../../assets/img/logo.png"/>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div><!--/.navbar-collapse -->
+    </div>
+  </div>
+</div>
+
+<section id="sec2">
+  <div class="container-fluid">
+    <div class="row">
+
+      <div id="sec2banner" style="background: linear-gradient(30deg,#a03cff,#3ab7fe);border-radius: 3px;padding: 0;">
+        <div class="col-md-offset-7 col-md-5" style="padding: 0;">
+          <h2 class="sec2Header" style="font-weight: 400;direction:rtl;">
+            تایید شده توسط معاونت علوم و فناوری به عنوان شرکت دانش بنیان
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div id="daneshbonyanImg" class="col-md-6 ">
+        <img class="img-responsive" style="margin-left: 50px;padding-bottom: 9px;width: 100%;"
+             src="assets/img/daneshbonyan.png"/>
+      </div>
+      <div class="col-md-offset-1 col-md-5" style="margin-top: 30px">
+        <p class="sec2Desc" style="font-weight: 400;direction: rtl;color: #6D6E70">
+          شرکت رایانه گستر کیو در سال ۱۳۹۵ به عنوان شرکت دانش بنیان در حوزه فناوری اطلاعات و ارتباطات و نرم افزار
+          های کامپیوتری ثبت شده است.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="products" style="padding-bottom: 160px;">
+  <div class="container-fluid">
+    <div id="productBanner" class="row" style="background: linear-gradient(90deg,#2AF598,#08AEEA);border-radius: 3px">
+
+      <div class="row" style="margin-right: 0;margin-left: 0">
+        <div class="col-sm-11 col-md-offset-1 col-md-5 ">
+          <h2 class="productHeader" style="direction:rtl;margin: 0">چهار محصول کاملاً بومی</h2>
+        </div>
+        <!--Goftare-->
+        <div class="showProductTiles productDetailTrigger col-md-offset-1 col-md-2 "
+             (click)="goftare()"
+             style="cursor:pointer;background: linear-gradient(180deg,#8BC6EC,#9599E2);margin-top: -20px;height:170px;padding-left: 0;border-radius: 5px;margin-right: 1%">
+          <p class="productTileHeader" style="margin:0;color: white">گفتاره</p>
+          <p class="productTileDesc" style="margin:0;color: white;">مشاوره روانشناسی آنلاین</p>
+        </div>
+
+        <!--ECAB-->
+        <div class="showProductTiles productDetailTrigger col-md-2 "
+             (click)="ecab()"
+             style="cursor:pointer;background: linear-gradient(180deg,#FAD961,#FBAB7E);margin-top: -20px;height:170px;padding-left: 0;border-radius: 5px;margin-left: 1%">
+          <p class="productTileHeader" style="margin:0;color: white">ایکب</p>
+          <p class="productTileDesc" style="margin:0;color: white;">سفارش تاکسی آنلاین</p>
+
+        </div>
+
+      </div>
+      <div class="row" style="margin-top: 2%;margin-right: 0;margin-left: 0;">
+        <div class="col-sm-11 col-md-offset-1 col-md-5 ">
+          <p class="productDesc" style="direction: rtl;color: #6D6E70;">
+            ما با تکیه بر نیروهای جوان و با استعداد خود ، چهار محصول اصلی خود را به صورت کاملا بومی توسعه داده ایم.
+          </p>
+        </div>
+
+
+        <!--Samandar-->
+        <div class="showProductTiles productDetailTrigger col-md-offset-1 col-md-2 "
+             (click)="samandar()"
+             style="cursor: pointer;background: linear-gradient(180deg,#C850C0,#803A7B);margin-right:1%;height:170px;padding-left: 0;border-radius: 5px;">
+          <p class="productTileHeader" style="margin:0;color: white">سمندر</p>
+          <p class="productTileDesc" style="margin:0;color: white;">راهنمای گردشگری</p>
+        </div>
+
+        <!--Patil-->
+        <div class="showProductTiles productDetailTrigger  col-md-2 "
+             (click)="patil()"
+             style="cursor: pointer;background: linear-gradient(180deg,#FF5F5C,#E13734);margin-left: 1%;height:170px;padding-left: 0;border-radius: 5px;">
+          <p class="productTileHeader" style="margin:0;color: white">پاتیل</p>
+          <p class="productTileDesc" style="margin:0;color: white;">سفارش آنلاین غذا</p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="productDetail" style="padding-bottom:80px;background: #FDFDFD">
+  <app-product-detail [selectedProduct]="ProductDetailIndex"></app-product-detail>
+</section>
+
+
+<section id="services" style="padding-bottom:80px;">
+  <app-services></app-services>
+</section>
+
+<section id="customers">
+  <div class="container-fluid">
+    <div class="row">
+      <h2 id="customersHeader" style="color: #404041" class="text-center">مشتریان ما چه کسانی هستند؟</h2>
+      <hr style="width: 10%">
+    </div>
+    <div class="row">
+      <div class="col-sm-2 col-sm-offset-2  col-md-2 col-md-offset-2" style="margin-bottom: 40px">
+        <a href="http://ontax.ir/"><img [src]="onTaxImgUrl" (mouseenter)="onTax()" (mouseleave)="setNormalImgs()"
+                                        style="float: right" class="img-responsive"/></a>
+      </div>
+      <div class="col-sm-2 col-md-2" style="margin-bottom: 40px">
+        <a href="http://sorenajans.ir/"><img [src]="sorenImgUrl" (mouseenter)="OnSoren()" (mouseleave)="setNormalImgs()"
+                                             style="float: left" class="img-responsive"/></a>
+      </div>
+      <!--<div class="col-sm-2 col-md-2" style="margin-bottom: 40px">
+        <a href="http://karinoapp.ir/"><img [src]="karinoImgUrl" (mouseenter)="OnKarino()"
+                                            (mouseleave)="setNormalImgs()" style="float: right" class="img-responsive"/></a>
+      </div>-->
+      <div class="col-sm-2 col-md-2" style="margin-bottom: 40px">
+        <a href="http://taxapptaxi-co.ir/"><img [src]="taxAppImgUrl" (mouseenter)="OnTaxApp()"
+                                                (mouseleave)="setNormalImgs()" style="float: left"
+                                                class="img-responsive"/></a>
+      </div>
+      <div class="col-sm-2 col-md-2" style="margin-bottom: 40px">
+        <a href="http://u-cab.ir/"><img [src]="ucabImgUrl" (mouseenter)="OnUcab()" (mouseleave)="setNormalImgs()"
+                                        style="float: right" class="img-responsive"/></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <app-work></app-work>
+</section>
+
+
+<app-footer></app-footer>

@@ -1,0 +1,29 @@
+<div class="container-fluid" style="background: linear-gradient(90deg,#0EC4D3,#08AEEa,#4388E5);padding-bottom: 90px;">
+  <div class="row">
+    <h2 id="customersHeader" style="font-size: 36px;font-weight: 400;margin-top: 40px;text-align: center">همکاری</h2>
+  </div>
+  <div class="row" style="margin-top: 40px">
+    <div class="col-xs-4 col-sm-4 col-md-offset-1 col-md-2">
+      <button type="button" (click)="selectKaramuzi()" [ngClass]="{'btn btn-work':true,'active':selectedItem==0}">
+        کارآموزی
+      </button>
+    </div>
+    <div class="col-xs-4  col-sm-4 col-md-offset-2 col-md-2">
+      <button type="button" (click)="selectEstekhdam()" [ngClass]="{'btn btn-work':true,'active':selectedItem==1}">
+        استخدام
+      </button>
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-offset-2 col-md-2">
+      <button type="button" (click)="selectSherkat()" [ngClass]="{'btn btn-work':true,'active':selectedItem==2}">شرکت
+      </button>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 20px;">
+    <div class="col-md-offset-1 col-md-10">
+      <div class="workPanel" style="min-height: 200px"
+           [ngClass]="{'workPanel':true,'sherkat':selectedItem==2,'estekhdam':selectedItem==1,'karamuzi':selectedItem==0}">
+        <p style="color:#404041;" class="workDesc" [innerHtml]="text"></p>
+      </div>
+    </div>
+  </div>
+</div>
